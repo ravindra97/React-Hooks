@@ -15,9 +15,12 @@ import AppSlice from './jsMethods/sliceMethod.jsx'
 import AppSort from './jsMethods/sliceMethod.jsx'
 import AppSpread from './jsMethods/spreadOperator.jsx'
 
+import AppUseStateHook from './hooksImplement/useStateHook.jsx'
+import AppUseEffectHook from './hooksImplement/useEffectHook.jsx'
+
 //Use the Componenet from above imported statment to check it's output
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppMap />
+    <AppUseEffectHook />
   </StrictMode>,
 )
